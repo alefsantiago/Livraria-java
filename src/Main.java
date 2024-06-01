@@ -12,12 +12,12 @@ public class Main {
         boolean exit = false;
 
         while (!exit) {
-            System.out.println("\n===== Operações CRUD Loja Tênis =====");
-            System.out.println("1. Create (Criar)");
-            System.out.println("2. Read (Visualizar/Ler)");
-            System.out.println("3. Update (Atualizar)");
-            System.out.println("4. Delete (Apagar)");
-            System.out.println("5. Exit");
+            System.out.println("\n===== Livraria =====");
+            System.out.println("1. Cadastrar");
+            System.out.println("2. Visualizar");
+            System.out.println("3. Atualizar");
+            System.out.println("4. Deletar");
+            System.out.println("5. Sair");
             System.out.print("Digite a opção desejada: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
